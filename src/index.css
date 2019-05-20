@@ -1,42 +1,19 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
-}
-
-.social-container {
-    background: #eee;
-    padding: 25px 50px;
-}
-
-a.social {
-    margin: 0 1rem;
-    transition: transform 250ms;
-    display: inline-block;
-}
-
-a.social:hover {
-    transform: translateY(-2px);
-}
-
-a.youtube {
-    color: #eb3223;
-}
-
-a.facebook {
-    color: #4968ad;
-}
-
-a.twitter {
-    color: #49a1eb;
-}
-
-a.instagram {
-    color: black;
-}
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        background-image: url(images\animal-dawn-desktop-backgrounds-875858.jpg), url(images\architecture-background-buildings-218983.jpg), url(images\art-artistic-background-1328891.jpg), url(images\art-artistic-background-1851447.jpg), url(images\astro-astronomy-background-956999.jpg), url(images\background-balance-commerce-583846.jpg), url(images\background-blur-blurred-255379.jpg), url(images\background-blur-clean-531880.jpg), url(images\backlit-chiemsee-dawn-1363876.jpg), url(images\blur-blurred-background-bubble-824678.jpg), url(images\close-up-code-coding-160107.jpg);
+        background-repeat: repeat;
+    }
+    
+    code {
+        font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+    }
+    
+    .container {
+        text-align: center;
+        padding-top: 50px;
+        background-size: contain;
+    }

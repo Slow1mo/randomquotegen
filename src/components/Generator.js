@@ -13,7 +13,7 @@ import { faTwitter, faTumblr, } from "@fortawesome/free-brands-svg-icons";
 class Generator extends React.Component {
 
     render() {
-        const {sQuote, getNewIndex} = this.props;
+        const {sQuote, getNewIndex, getNextImage} = this.props;
 
         return (
             <Card>
@@ -23,9 +23,9 @@ class Generator extends React.Component {
                     </Typography>
                 </CardContent>
                 <CardActions>
-                    <Button id='new-quote' size='small' onClick={getNewIndex}>New Quote</Button>
+                
+                    <Button id='new-quote' size='small' onClick={(event) => {getNewIndex(); getNextImage();}}>New Quote</Button>
                     <IconButton id='tweet-quote' target="_blank" href={encodeURI(`https://twitter.com/intent/tweet?text=${sQuote.quote}&hashtags=ReactJS`)}>
-                    
                         <FontAwesomeIcon icon={faTwitter} size="sm"></FontAwesomeIcon>
                         
                     </IconButton>
